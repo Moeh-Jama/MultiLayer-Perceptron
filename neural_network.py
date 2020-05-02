@@ -22,3 +22,6 @@ class NeuralNetwork():
 				pass
 			print('Error at epoch {} is {}'.format(i,error))
 		pass
+
+nn = NeuralNetwork()
+nn.train(5,[0]*5)
